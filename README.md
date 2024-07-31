@@ -20,29 +20,29 @@ The dataset comprises Herbalife Nutrition sales data from January 2022 to June 2
 
 ## All Orders Table
 
-**Order Number: Unique ID For Each Order Placed.**<br><br>
-**Delivery Charges: Delivery Charge Per Order.**<br><br>
-**Order Date: Date On Which Order Is Placed.**<br><br>
-**Order Status: Status Of Order ENUM[COMPLETED/CANCELLED].**<br><br>
-**Purchased By: Person Who Placed Order.**<br><br>
-**Customer Name: For Whom Order Is Placed.**<br><br>
-**City: City In Which Order Is To Be Placed Or City Name Where the Customer Is From.**<br><br>
-**State: Name Of The State.**<br><br>
-**Pincode: PINCode Of Area.**<br><br>
-**Contact Number: Contact Number Of The Person.**<br><br>
-**Amount Paid: Total Amount Paid Per Order.**<br><br>
-**Discount: Discount Per Order.**<br><br>
-**Quantity: Quantity Of Specific Product In Order.**<br><br>
-**Item: Name Of The Item Ordered.**<br><br>
-**SKU: Unique ID Of Each Specific Product.**<br><br>
+**Order Number: Unique ID For Each Order Placed**<br><br>
+**Delivery Charges: Delivery Charge Per Order**<br><br>
+**Order Date: Date On Which Order Is Placed**<br><br>
+**Order Status: Status Of Order ENUM - COMPLETED/CANCELLED**<br><br>
+**Purchased By: Person Who Placed Order**<br><br>
+**Customer Name: For Whom Order Is Placed**<br><br>
+**City: City In Which Order Is To Be Placed Or City Name Where the Customer Is From**<br><br>
+**State: Name Of The State**<br><br>
+**Pincode: PINCode Of Area**<br><br>
+**Contact Number: Contact Number Of The Person**<br><br>
+**Amount Paid: Total Amount Paid Per Order**<br><br>
+**Discount: Discount Per Order**<br><br>
+**Quantity: Quantity Of Specific Product In Order**<br><br>
+**Item: Name Of The Item Ordered**<br><br>
+**SKU: Unique ID Of Each Specific Product**<br><br>
 
 ## Items Table
-**SKU: Unique ID Of Each Specific Product.**<br><br>
-**Item: Name Of The Item Ordered.**<br><br>
-**MRP: MRP(Maximum Retail Price Of Product/Item).**<br><br>
+**SKU: Unique ID Of Each Specific Product**<br><br>
+**Item: Name Of The Item Ordered**<br><br>
+**MRP: MRP- Maximum Retail Price Of Product/Item**<br><br>
 
 ## Orders Table
-**It is Subset Of AllOrders Table Including Below Fields.**<br><br>
+**It is Subset Of AllOrders Table Including Below Fields**<br><br>
 **Ordere Number**<br><br>
 **Ordere Date**<br><br>
 **Purchased By**<br><br>
@@ -56,18 +56,21 @@ The dataset comprises Herbalife Nutrition sales data from January 2022 to June 2
 **Pincode**<br><br>
 
 ## OrderedItems
-**It is Used To Connect Two tables Orders And Items.**<br><br>
+**It is Used To Connect Two tables Orders And Items**<br><br>
 **Ordere Number**<br><br>
 **SKU**<br><br>
 **Quantity**<br><br>
 
 ## Cancelled Orders
-**It contains all fields as AllOrders Table But Entries Only Of Order Status Is CANCELLED.**<br><br>
+**It contains all fields as AllOrders Table But Entries Only Of Order Status Is CANCELLED**<br><br>
 
 
 ## Tools And Technologies Used
 **Power BI Desktop**<br><br>
-**Python (For Data Preprocessing)**<br><br>
-**Pandas, Matplotlib, Seaborn (Python libraries for data analysis and visualization)**<br><br>
+**Python For Data Preprocessing**<br><br>
+**Pandas, Matplotlib, Seaborn - Python libraries for data analysis and visualization**<br><br>
 **Probability & Statistics**<br><br>
 **Hypothesis Testing**<br><br>
+
+## Note
+**Dataset Links And Dashboard Are Not Provided Because Of The User Data Privacy Concerns**
